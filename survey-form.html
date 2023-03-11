@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water scarcity Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Water scarcity Survey</h1>
+    <p id="description">Thank you for taking the time to help us</p>
+    <form id="survey-form">
+      <fieldset class="one">
+      <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter you name" required /></label>
+      <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required /></label>
+      <label id="number-label" for="age">Age <input id="number" type="number" min="3" max="120" placeholder="Age" /></label>
+      </fieldset>
+      <fieldset class="two">
+      <label>What is your main source of water?
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option>Bore well/ hand pump</option>
+        <option>Public tap</option>
+        <option>Open well </option>
+        <option>Household water supply/ piped</option>
+        <option>Others</option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset class="three">
+      <label>Is water available (from your main source)
+        throughout the year?
+      <label><input id="radio" type="radio" name="radio" value="Yes" />Yes</label>
+      <label><input id="radio" type="radio" name="radio" value="No" />No</label>
+      <label><input id="radio" type="radio" name="radio" value="Not sure" />Not sure</label>
+    </label>
+      </fieldset>
+      <fieldset class="four">
+      <label>How much you pay for water?
+      <select>
+        <option>Select an option</option>
+        <option>Less than 100 Rs</option>
+        <option>100-500 Rs</option>
+        <option>501-1000 Rs</option>
+        <option>more than 1000 Rs </option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset class="five">
+        <label>
+          How many of these ways you follow to save water? (Check all that apply)
+          <label><input type="checkbox" value="Turn off the water while brushing your teeth" />Turn off the water while brushing your teeth</label>
+          <label><input type="checkbox" value="Check your toilet for leaks" />Check your toilet for leaks</label>
+          <label><input type="checkbox" value=" Take shorter showers" />Take shorter showers</label>
+          <label><input type="checkbox" value="Check faucets and pipes for leaks" />Check faucets and pipes for leaks</label>
+          <label><input type="checkbox" value="Water your lawn only when it needs it" />Water your lawn only when it needs it</label>
+          <label><input type="checkbox" value="Plant drought-resistant trees and plants" />Plant drought-resistant trees and plants</label>
+          <label><input type="checkbox" value="Use your automatic washing machine only for full loads only" />Use your automatic washing machine for full loads only</label>
+          <label><input type="checkbox" value="Use a broom to clean driveways, sidewalks and steps" />Use a broom to clean driveways, sidewalks and steps</label>
+          <label><input type="checkbox" value="Do less laundry" />Do less laundry</label>
+          <label><input type="checkbox" value="Harvest with rain water" />Harvest with rain water</label>
+          <label><input type="checkbox" value="Avoid bottled water" />Avoid bottled water</label>
+        </label>
+      </fieldset>
+      <fieldset class="six">
+        <label>Write few lines on water scarcity in your area.
+        <textarea>Enter your content here...</textarea>
+        </label>
+      </fieldset>
+      <label><input id="submit" type="submit" value="Submit" /></label>
+    </form>
+    <footer>
+    </footer>
+  </body>
+</html>
